@@ -1,5 +1,5 @@
 
-document.getElementById('generation').addEventListener('click', function() { // Метод для кнопки "Генерация"; генерирует данные пользователей
+document.getElementById('generation').addEventListener('click', function() { 
     const initPerson = personGenerator.getPerson();
     document.getElementById('surnameOutput').innerText = initPerson.surname;
     document.getElementById('firstNameOutput').innerText = initPerson.firstName;
@@ -11,7 +11,7 @@ document.getElementById('generation').addEventListener('click', function() { // 
     document.getElementById('professionOutput').innerText = initPerson.profession;
 });
 
-document.getElementById('clear').addEventListener('click', function() { // Метод для кнопки "Очистить"; вместо данных пользователей появляются параметры данных
+document.getElementById('clear').addEventListener('click', function() { 
     document.getElementById('surnameOutput').innerText = 'Фамилия';
     document.getElementById('firstNameOutput').innerText = 'Имя';
     document.getElementById('patronymicOutput').innerText = 'Отчество';
