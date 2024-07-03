@@ -19,7 +19,7 @@ const personGenerator = {
             "id_13": "Степанов",
             "id_14": "Павлов",
             "id_15": "Александров",
-            "id_16": "Морозов"
+            "id_16": "Мороз"
         }
     }`,
     firstNameMaleJson: `{
